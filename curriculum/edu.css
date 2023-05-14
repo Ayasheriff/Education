@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    background: #5DADE2;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(10, 33, 43);
+}
+
+
+.box-shadow{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px 50px;
+  
+
+}
+.sublogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo{
+  width: 95px;
+  height: 95px;
+  border-radius: 200px;
+  border: 3px solid rgb(255, 195, 0);
+}
+.list{
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  gap: 50px;
+
+}
+.anchor{
+  color:blue;
+  font-size: x-large;
+  text-decoration: none;
+}
+.cap{
+  transform: rotate(30deg);
+  width: 40px;
+}
+/* .logoBG{
+  margin-right: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.mee{
+  color:  rgb(255, 195, 0);
+  font-size: 30px;
+  margin-left: 30px;
+}
+.subMEE{
+  color: blue;
+} */
+
+
+p{
+    padding: 10px;
+}
+.con{
+  display: block;
+    background: rgb(255, 240, 217);
+    /* width: 90%; */
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+
+
+.conn2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+    
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+
+}
+img {
+    height: 300px;
+    float: left;
+    padding: 20px;
+  }
+
+  .im img {
+    transition: 1s ease;
+  }
+img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+h2{
+    padding: 10px;
+    color: #8b4a00;
+}
+
+.conn3, 
+.conn4,
+.conn5,
+.conn6,
+.conn7{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 50px 30px;
+    line-height: 30px;
+    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+
+  .fot{
+    background:#2196F3;
+    color: white;
+    padding: 10px;
+    border-style: dotted;
+
+  }
+
+
+
+  a{
+    text-decoration: none;
+    color: white;
+  }

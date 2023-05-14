@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=League+Spartan:wght@400;500;700&family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+}
+.box-shadow{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 50px;
+    
+
+}
+.sublogo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 95px;
+    height: 95px;
+    border-radius: 200px;
+    border: 3px solid rgb(255, 195, 0);
+}
+.list{
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    gap: 50px;
+
+}
+.anchor{
+    color:blue;
+    font-size: x-large;
+    text-decoration: none;
+}
+.cap{
+    transform: rotate(30deg);
+    width: 40px;
+}
+.logoBG{
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.mee{
+    color:  rgb(255, 195, 0);
+    font-size: 30px;
+    margin-left: 30px;
+}
+.subMEE{
+    color: blue;
+}
+.gardDiv{
+    justify-content: center;
+}
+.graduation{
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+/* _______________________________________________________________ */
+
+/* slideshow automatically */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* _______________________________________________________________ */
+
+.header{
+    justify-content: center;
+}
+.headImg{
+    justify-content: center;
+    margin-left: 9%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+.title{
+    margin: 0 10%;
+    color: blue;
+}
+.subtitle{
+    margin: 0 10%;
+    margin-bottom: 20px;
+}
+.imgLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+.issues{
+    width: 300px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+.pobLinks{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.pobLinks:hover{
+    background-color:rgb(255, 195, 0) ;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+/* .............about ............*/
+.totalBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 100px;
+}
+.box{
+    background-color: white;
+    box-shadow: 0px 0px 20px lightslategray ;
+    width: 60%;
+    height: 380px;
+    padding: 30px;
+    margin-left: -450px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+.boxTitle{
+    font-size: 50px;
+    border-bottom: 15px solid rgb(255, 195, 0);
+    margin-right: 80%;
+}
+.boxSubtitle{
+    margin-top: 40px;
+}
+.boxImg{
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 60%;
+    margin-right: 200px;
+    border-radius: 20px;
+
+}
+
+.boxImg2{
+    width: 40%;
+    height: 410px;
+    position: relative;
+    z-index: -1;
+    border-radius: 20px;
+    margin-right: 750px;
+}
+.box2{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 0px 20px lightslategray ;
+    width: 60%;
+    height: 370px;
+    border-radius: 20px;
+    margin-left: 520px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+.boxTitle2{
+    font-size: 50px;
+    border-bottom: 15px solid blue;
+    margin-right: 80%;
+
+}
+#school{
+    height: 430px;
+    margin-top: 10px;
+}
+#teacher{
+    margin-top: 0px;
+
+}
+
+/* .........contact box......... */
+.formbox{
+    margin: 50px 40px 50px 120px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    padding: 40px;
+    
+}
+.formTitle{
+    margin-bottom: 20px;
+    color:rgb(255, 195, 0) ;
+}
+.nameForm{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* .............facebook post................ */
+
+
+  .container{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    transition: height 0.2s ease;
+  }
+  .solve{
+    font-size: 20px;
+    color: blue;
+  }
+  .container.active{
+    height: 500px;
+  }
+  .container .wrapper{
+    width: 100%;
+    display: flex;
+  }
+  .container .wrapper section{
+    width: 100%;
+    background: #fff;
+  }
+  .container img{
+    cursor: pointer;
+  }
+  .container .post{
+    transition: margin-left 0.18s ease;
+  }
+  .container.active .post{
+    margin-left: -500px;
+  }
+ 
+ 
+  form :where(textarea, button){
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  form textarea{
+    resize: none;
+    font-size: 18px;
+    margin-top: 30px;
+    min-height: 100px;
+  }
+  form textarea::placeholder{
+    color: #858585;
+  }
+  form textarea:focus::placeholder{
+    color: #b3b3b3;
+  }
+
+
+
+  form button{
+    width: 60%;
+    margin: 0 200px;
+    height: 53px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #BCC0C4;
+    cursor: no-drop;
+    border-radius: 7px;
+    background: #e2e5e9;
+    transition: all 0.3s ease;
+    
+  }
+  form textarea:valid ~ button{
+    color: #fff;
+    cursor: pointer;
+    background: blue;
+  }
+  form textarea:valid ~ button:hover{
+    background: blue;
+  }
+ 
+  .container.active .audience{
+    opacity: 1;
+  }
+

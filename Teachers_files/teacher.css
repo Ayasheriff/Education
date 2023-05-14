@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=League+Spartan:wght@400;500;700&family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: white;
+}
+.list {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    gap: 50px;
+}
+.box-shadow{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 50px;
+    background-color: white;
+
+}
+.sublogo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    border: 3px solid rgb(255, 195, 0);
+}
+.list{
+    margin-top: 20px;
+}
+.links{
+    color:blue;
+    font-size: x-large;
+    text-decoration: none;
+
+}
+.logoBG{
+    height: 70px;
+    
+
+}
+#logo2{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.headbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 70px;
+}
+.title{
+    margin-left: 60px;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.subtitle{
+    margin-left: 60px;
+    font-size: 10px;
+    color: grey;
+    width: 70%;
+    margin-top: 40px;
+}
+.allbtns{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.btns{
+    border-radius: 50px;
+    width: 210px;
+    height: 60px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(255, 195, 0);
+    text-decoration: none;
+    padding: 15px;
+
+}
+.btns:hover{
+    background-color: blue;
+    color: white;
+}
+.defination{
+    margin: 20px 10%;
+    
+}
+
+h3{
+    margin-top: 20pX;
+color: #8b4a00;}
+.pic1{
+    margin-top: -120px;
+}
+.video-text{
+    display: flex;
+    flex-direction: row;
+}
+.video{
+    margin-top: 20px;
+}
+.img-text{
+   width: 200px;
+}
+.solution{
+    margin-top: -3px;
+}
+.header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 40px;
+    color: grey;
+}
+
+.anotherSol{
+    display: flex;
+    flex-direction: column;
+}
+.communicate{
+    color: blue;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.anotherSol{
+    color: blue;
+    margin-left: 90px;
+    font-size: 30px;
+}
+.AllPics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 100px;
+}
+.SolPic{
+    border-radius: 25px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.SolPic:hover{
+    transform: scale(1.1);
+}
+#lastPic{
+    height: 300px;
+}
+.firstPic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.solLink{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 40px auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.footer{
+    background-color:rgb(255, 195, 0) ;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}

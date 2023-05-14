@@ -1,0 +1,358 @@
+
+/* ...............main page........... */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("../images/student.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-color: rgb(255, 240, 217);
+    height: 120px;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  li{
+    padding-top: 20px;
+    
+  }
+
+
+  .pic{
+    width: 90px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 300px;
+    border: 3px solid rgb(255, 195, 0);
+    background-image: url("../images/WhatsApp\ Image\ 2023-04-16\ at\ 4.40.05\ AM.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+  }
+
+  .list{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+  
+  }
+  p.blue2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    color: #000080;
+    font-size: x-large;
+    padding-top: 10px;
+  }
+
+ a.anchor{
+    color:blue;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+
+  body{
+    background-color:rgb(255, 245, 233);
+
+  }
+  div{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 100px;
+  }
+
+
+  img{
+    width: 750px;
+    height: 400px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+                                                               /*font*/
+
+
+
+  p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    color: #8b4a00;
+    font-size: large;
+  }
+
+.title {
+   color: #000080;
+   font-size: xx-large;
+}
+
+.title2{
+  color:rgba(207, 52, 83, 0.819);
+   font-size: xx-large;
+   padding-bottom: 50px;
+
+}
+.pink{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    color: rgba(160, 63, 83, 0.819);
+    font-size: large;
+}
+
+.blue{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    color: #000080;
+    font-size: large;
+}
+
+
+.head{
+    color:#5DADE2;
+    opacity: inherit;
+    font-size: x-large;
+   padding-top: 30px;
+}
+
+.yellow{
+  color:#F7DC6F;
+  font-size: x-large;
+ padding-top: 30px;
+
+}
+
+
+.dots{
+  color: #F7DC6F;
+  padding-top: 50px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.dots2{
+  color:rgba(213, 118, 137, 0.819) ;
+  padding-top: 50px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+
+
+
+                                                              /*How can I educate myself at home? div*/
+
+
+
+.photo{
+    float: right;
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+
+                                                                        /*link*/
+/* unvisited link */
+a:link {
+  color:#000080;
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
+/* visited link */
+a:visited {
+  color:#000080;
+}
+
+/* mouse over link */
+a:hover {
+  color:rgba(207, 52, 83, 0.819);
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
+                                                                    /*link2*/
+
+
+a.a2{
+  color:#000080;
+  font-size: large;
+ 
+}
+
+/* visited link */
+a.a2:visited {
+  color:#000080;
+}
+
+/* mouse over link */
+a.a2:hover {
+  color:rgba(207, 52, 83, 0.819);
+}
+
+/* selected link */
+a.a2:active {
+  color: yellow;
+} 
+
+
+                                                         /*How might I get started?   div*/
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  padding-left: 18%;
+}
+
+                                                                        /*first*/
+
+.first{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color:#F5CBA7;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+                                                                        /*second*/
+
+.second{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: #F5CBA7;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    
+}
+
+                                                                      /*third*/
+
+.third{
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #F5CBA7;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+
+                                                                    /*last sec*/
+
+
+.text1{
+  font-size: xx-large;
+  font-weight: 100;
+  text-align: center;
+  opacity: 0.7;
+  color: #000080;
+}
+
+.text2{
+  font-size: xx-large;
+  text-align: center;
+  color: #000080;
+}
+.text3{
+  font-size: medium;
+  font-weight: 100;
+  text-align: center;
+  opacity: 0.3;
+  color: #000080;
+}
+
+
+                                                                 /********************************/
+
+.box2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 400px;
+  padding-left: 10px;
+  background-color: #000080;
+}
+
+                                                                        /*first*/
+
+.first2{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+                                                                        /*second*/
+
+.second2{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    
+}
+
+                                                                      /*third*/
+
+.third2{
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+                                                                           /*fourth*/
+
+                                                                           
+.fourth{
+
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 140px;
+
+}
+
+
+
+
+
+
+
